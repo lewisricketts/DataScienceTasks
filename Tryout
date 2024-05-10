@@ -1,0 +1,17 @@
+num_students = int(input("How many students are you registering?")) #creates a variable called num_students this will be cast as an integer when user inputs number
+student_names = [] #empty variable string called student_names
+student_id = [] #empty variable string called student_id
+
+i = 0
+
+with open('student_list.txt', 'w+') as names_file: #opens a new file called student_list that i want to write to
+    for i in range (0, num_students): #for loop iterates from 0 to num_students previously inputted
+        student_names = input("Enter name of student:") #variable student_names - the inputted name is stored in student_names
+        names_file.write(student_names + '\n') #in the names_file the student names are entered followed by a new line
+        with open('reg_form.txt','a+') as id_files:
+            student_id = input(f"Please type {student_names} ID number:")
+            id_files.write(student_id + '...............................' +'\n') #student_id is written into the id_files followoed by a line to sign and a new line
+
+i += 1 #after each loop it adds one to the iterator value
+
+print("You have successfully added the relevant students") #once completed this message is printed

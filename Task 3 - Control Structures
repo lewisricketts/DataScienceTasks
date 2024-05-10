@@ -1,0 +1,45 @@
+# is_rain = True
+   
+# if is_rain == False:
+#     print("The sky is clear, wear shorts!")
+
+# # if is_rain == True:
+# #     print("Make sure to take out an Umbrella")
+
+# else:
+#     print("Make sure to take out an Umbrella")
+
+# """ == equal to
+# > greater than
+# < less than
+# !: not equal to 
+# >= greater or equal to
+# <= lesser or equal to """
+
+# grade = int(input("What is your grade?:"))
+
+# if grade > 50: 
+#     print("You passed with an average mark")
+
+# elif grade <50 and grade > 30 :
+#     print("You scored below the average grade")
+
+# else:
+#     print("You have failed")
+
+grade = int(input("What score did you achieve?:"))
+if grade >= 50:
+
+    if grade > 70:
+        print("You have scored above the average grade!")
+
+    else:
+         print("You passed")
+
+    if grade >= 80 and grade <99:
+        print("You have done fantastically, well done!")
+
+else:
+     print("You have scored below the average grade")
+
+     

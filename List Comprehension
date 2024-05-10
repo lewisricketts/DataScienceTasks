@@ -1,0 +1,13 @@
+num_list = ['1', '2', '5', '7','11', '21']
+new_num_list = [int(element)*2 for element in num_list]
+new_num_list_2 = [int(element*2) for element in num_list]
+print (new_num_list)
+print (new_num_list_2)
+
+
+
+string1 = ",".join(new_num_list)
+string2 = ",".join(new_num_list_2)
+
+print(string1)
+print(string2)

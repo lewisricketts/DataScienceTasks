@@ -1,0 +1,12 @@
+Lewis
+Oscar
+& C:/Users/lewis/AppData/Local/Programs/Python/Python311/python.exe "c:/Users/lewis/OneDrive/Documents/Data Science Bootcamp/student_register.py"
+Lewis
+123
+James
+Lewis
+James
+Lewis
+& C:/Users/lewis/AppData/Local/Programs/Python/Python311/python.exe "c:/Users/lewis/OneDrive/Documents/Data Science Bootcamp/student_register.py"
+Lewis
+James

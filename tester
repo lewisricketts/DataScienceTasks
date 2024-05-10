@@ -1,0 +1,11 @@
+num_students = int(input("How many students are you registering? "))
+
+with open('student_list.txt', 'w') as names_file, open('reg_form.txt', 'a') as id_file:
+    for _ in range(num_students):
+        student_name = input("Enter name of student: ")
+        names_file.write(student_name + '\n')
+
+        student_id = input(f"Please type {student_name}'s ID number: ")
+        id_file.write(f"{student_name}: {student_id}\n")
+
+print("You have successfully added the relevant students")
